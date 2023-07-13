@@ -5,6 +5,7 @@ from click_certo_007.view import click_certo
 class MainWindow(click_certo):
 
 
+
 def gerar_placar():
     gols_casa = random.randint(0, 5)
     gols_vistante = random.randint(0, 5)

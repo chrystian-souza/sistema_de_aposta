@@ -9,7 +9,7 @@ class Aposta_repository:
     def insert(self, aposta):
         with DBConnectionHandler() as db:
             try:
-                db.session.add(apostador)
+                db.session.add(aposta)
                 db.session.commit()
                 return 'ok'
             except Exception as e:
