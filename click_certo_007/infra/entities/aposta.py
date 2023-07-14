@@ -8,7 +8,9 @@ class Aposta(Base):
     nome_do_apostador = Column(String(length=100), nullable=False)
     gols_casa = Column(Integer, nullable=False)
     gols_visitante = Column(Integer, nullable=False)
-    vencedor = Column(String(length=1), nullable=False)
+    valor_da_aposta = Column(Integer, nullable=False)
+    vencedor = Column(String(length=1))
+
 
 
 
